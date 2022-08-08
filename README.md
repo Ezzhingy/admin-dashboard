@@ -10,9 +10,8 @@ Created with HTML and CSS. From this project, I learned how to:
 - Responsively expand or shrink a section when resizing the browser window
 
 *References:* 
-
-main_profile.webp: pugapillargod
-profile1.jpeg: wattpad.com
-profile2.webp: Anwell Patdu
-profile3.jpeg: Tanukifeesh
+- main_profile.webp: pugapillargod
+- profile1.jpeg: wattpad.com
+- profile2.webp: Anwell Patdu
+- profile3.jpeg: Tanukifeesh
 

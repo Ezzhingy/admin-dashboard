@@ -7,6 +7,7 @@
     --hover-blue: #ecfeff;
     --light-blue: #a5f3fc;
     --dark-blue: #075985;
+    --middle-dark-blue: #0A79B5;
 
 }
 
@@ -58,6 +59,10 @@ a {
     position: relative;
 }
 
+img {
+    width: 1.5rem;
+}
+
 .sidebar ul img {
     width: 1.5rem;
     position: absolute;
@@ -78,6 +83,96 @@ a {
 
 .header {
     grid-column: 2 / -1;
+    background-color: var(--middle-dark-blue);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.upper-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px 20px 60px;
+}
+
+.upper-left-side {
+    position: relative;
+}
+
+.upper-right-side {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.upper-right-side > a + img {
+    border-radius: 50%;
+    width: 35px;
+    height: auto;
+}
+
+.upper-right-side h4 {
+    color: var(--light-blue);
+}
+
+#search {
+    position: absolute;
+    left: -25px;
+}
+
+input {
+    width: 35rem;
+    margin: 0 10px 0 10px;
+    background-color: var(--dark-blue);
+    border-radius: 10px;
+    border-color: var(--dark-blue);
+    color: var(--light-blue);
+
+    display: flex;
+    flex: 1;
+}
+
+.lower-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lower-left-side {
+    position: relative;
+    display: flex;
+}
+
+.lower-left-side .profile-greeting {
+    padding: 20px 40px 20px 60px;
+
+}
+
+.profile-greeting img {
+    position: absolute;
+    left: 30px;
+    top: -5px;
+    border-radius: 50%;
+    width: 50px;
+    height: auto;
+}
+
+.greetings h3, h6 {
+    color: var(--light-blue);
+}
+
+.lower-right-side {
+    display: flex;
+    padding: 20px 40px 20px 60px;
+    gap: 20px;
+}
+
+.lower-right-side button {
+    border-radius: 15px;
+    color: var(--light-blue);
+    background-color: var(--dark-blue);
+    border-color: var(--dark-blue);
+    padding: 5px 20px 5px 20px;
 }
 
 .main-content {
